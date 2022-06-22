@@ -23,5 +23,6 @@ If any help in needed, you can vist me on Scratch and leave a comment!
 # Installation
 
 os.system("pip install ScratchServe")
+
 import ScratchServe as scratch
 
