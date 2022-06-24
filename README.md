@@ -34,3 +34,7 @@ os.system("pip install ScratchServe")
 
 import ScratchServe as scratch
 
+# Create a Connection
+
+scratch = scratch.connect("username", "password") #Test
+
