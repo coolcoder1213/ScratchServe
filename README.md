@@ -41,7 +41,7 @@ Without Cookie: scratch = scratch.connect("username", "password")
 With Cookie: scratch = scratch.connect("session_id") #Returns the data on the login.
 
 
-# Cloud Vars
+# Cloud Vars:
 conn = scratch.connect_cloud("project_id)
 
 
@@ -64,7 +64,7 @@ img = scratch.img("URL", "Color Type. Example: RGBA, RGB, Hex, Base64, ect.")
 
 
 
-# Data
+# Data:
 
 **User:**
 
@@ -199,7 +199,7 @@ user.followers()
 
 
 
-# Scratch Actions
+# Scratch Actions:
 
 
 
@@ -369,7 +369,7 @@ user.followers()
 
 
 
-# Cloud Events
+# Cloud Events:
 
 
 
@@ -409,7 +409,7 @@ user.followers()
 
 
 
-# Cloud Requests
+# Cloud Requests:
 
 
 
@@ -437,11 +437,52 @@ user.followers()
 
 
 
-# Cloud DB
+# Cloud DB:
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Codes:
 
 
 
@@ -481,64 +522,7 @@ Please report them!
 Contact me on Repl or Scratch with the username @coolcoder1213.
 
 https://scratch.mit.edu/users/coolcoder1213/
+
 https://replit.com/@coolcoder1213
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Codes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
