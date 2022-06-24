@@ -41,6 +41,21 @@ Without Cookie: scratch = scratch.connect("username", "password")
 With Cookie: scratch = scratch.connect("session_id") #Returns the data on the login.
 
 
+# Cloud Vars
+conn = scratch.connect_cloud("project_id)
+
+
+conn.set_var("Name", "Value")
+
+conn.get_var("Name")
+
+conn.logs()
+
+conn.delete_var("Name")
+
+conn.create_var("Name", "Value")
+
+
 # Use Images:
 
 scratch.img_setup("img_location")
