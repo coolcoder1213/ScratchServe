@@ -35,13 +35,27 @@ os.system("pip install ScratchServe")
 import ScratchServe as scratch
 
 # Create a Connection:
+This feature is used to log-in.
 
-Without Cookie: scratch = scratch.connect("username", "password")
+**Without Cookie:**
+scratch = scratch.connect("username", "password")
 
-With Cookie: scratch = scratch.connect("session_id") #Returns the data on the login.
+**With Cookie(this can be found in your browsers cookie or using the session_id attribute):** 
+ scratch = scratch.connect("session_id") 
 
+Attributes:
+
+scratch.session
+
+scratch.xtoken
+
+scratch.email
+
+scratch.status
 
 # Cloud Vars:
+This feature is used to interact with cloud vars.
+
 conn = scratch.connect_cloud("project_id)
 
 
@@ -57,14 +71,14 @@ conn.create_var("Name", "Value")
 
 
 # Use Images:
-
-scratch.img_setup("img_location")
+This feature is used to retrieve images.
 
 img = scratch.img("URL", "Color Type. Example: RGBA, RGB, Hex, Base64, ect.")
 
 
 
 # Data:
+This feature is used to get data.
 
 **User:**
 
@@ -370,6 +384,7 @@ user.followers()
 
 
 # Cloud Events:
+This is used to respod to cloud var changes.
 
 
 
@@ -438,6 +453,7 @@ user.followers()
 
 
 # Cloud DB:
+This feature is used to create a DB.
 
 
 
@@ -483,12 +499,21 @@ user.followers()
 
 
 # Codes:
+This feature is used to encode and decode text. The Scratch version is available on my profile.
+
+**Example:**
+
+var_name = scratch.encode("text")
+
+var_name = scratch.decode("text")
+
+var_name = scratch.encode_list("text)
+
+var_name = scratch.decode_list("text")
 
 
 
-
-
-
+Make sure to use it properly or else it will return an error. There is no point in encoding text before setting a cloud var because it is built into the function.
 
 
 
@@ -519,10 +544,10 @@ Any bugs?
 
 Please report them!
 
-Contact me on Repl or Scratch with the username @coolcoder1213.
+Contact me on Repl or Scratch, or even here with the username @coolcoder1213.
 
 https://scratch.mit.edu/users/coolcoder1213/
 
 https://replit.com/@coolcoder1213
 
-
+https://github.com/coolcoder1213
