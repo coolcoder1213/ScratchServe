@@ -584,6 +584,23 @@ This is used to respod to cloud var changes.
 
 # Cloud Requests:
 
+Python:
+
+scratch.cr("project id")
+
+
+@scrach.request
+def function_name()
+return("go")
+
+
+@scratch.request
+def function_name(argument1)
+return(argument1 + 1)
+
+@scratch.request
+def function_name(argument1, argument2)
+return(argument1 + argument2)
 
 
 
