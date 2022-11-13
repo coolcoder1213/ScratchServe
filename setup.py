@@ -1,9 +1,5 @@
-import requests
-import json
 from setuptools import setup, find_packages
 import codecs
-import numpy
-import websocket-client
 
 
 
