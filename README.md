@@ -23,7 +23,7 @@ And much more!
 
 
 NOTICE: Knowlage of the Python language is required to use this code.
-If any help in needed, you can vist me on Scratch or Replit.
+If any help in needed, you can vist me on Scratch or Replit or even here on Github.
 
 
 
@@ -41,6 +41,7 @@ This feature is used to log-in.
 scratch = scratch.connect("username", "password")
 
 **With Cookie(this can be found in your browsers cookie or using the session_id attribute):** 
+ 
  scratch = scratch.connect("session_id") 
 
 Attributes:
@@ -610,53 +611,21 @@ This is used to respod to cloud var changes.
 
 
 # Cloud DB:
-This feature is used to create a DB.
+This feature is used to create a DB for your Scratch project.
 
 
+scratch.db("project id")
 
+scratch.dbstart()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+scratch.dbstop()
 
 
 
 
 # Codes:
 This feature is used to encode and decode text. The Scratch version is available on my profile.
+https://scratch.mit.edu/projects/686710217/
 
 **Example:**
 
@@ -671,26 +640,6 @@ var_name = scratch.decode_list("text")
 
 
 Make sure to use it properly or else it will return an error. There is no point in encoding text before setting a cloud var because it is built into the function.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
