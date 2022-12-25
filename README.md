@@ -677,7 +677,7 @@ https://github.com/coolcoder1213
 
 
 **Credits:**
-A big thanks to @ScratchTheCoder12345, @Air_heads, @TheCloudDev, @Sid72020123, and many others for teaching me Python.
+@TimMcCool for some code.
 @NFlex23 for Aviate.
 @DatOneLefty for ScratchDB.
 And almost everything else done by @coolcoder1213.
